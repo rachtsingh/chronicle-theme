@@ -9,25 +9,27 @@ html {
 body {
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    color: #313a3d;
+    font-family: 'Roboto', sans-serif;
+    color: #1c1c1c;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
     line-height: 1.6;
+    background-color: white;
 }
 
 header#banner {
-    margin: 25px 0;
+    margin: 25px 0 0 0;
 }
-
+ 
 header#banner a {
-    color: #313a3d;
+    font-size: 16px;
+    color: #1c1c1c;
     text-decoration: none;
 }
 
 header#banner a:hover {
-    text-decoration: underline;
+    color: #ccc;
 }
 
 header#banner h2 {
@@ -43,7 +45,7 @@ header#banner nav {
 
 header#banner nav ul {
     list-style-type: none;
-    font-size: 1.05em;
+    font-size: 1.4em;
     text-transform: lowercase;
     margin: 0;
     padding: 0;
@@ -55,15 +57,16 @@ header#banner nav ul li {
 }
 
 header#banner nav ul li a {
-    color: #454545;
+    color: #1c1c1c;
 }
 
 main#content a {
-    color: #007dfa;
+    color: #1c1c1c;
     text-decoration: none;
 }
 
 main#content a:hover {
+    color: #ccc;
     text-decoration: underline;
 }
 
@@ -94,19 +97,21 @@ main#content h6 + p {
 main#content p {
     color: #394548;
     margin: 16px 0;
+    font-weight: 400px;
 }
 
 main#content hr {
     height: 1px;
     border: 0;
-    background: #d8d8d8;
+    /* background: #d8d8d8; */
 }
 
 /* index.html styles */
 main#content ul#posts {
     list-style-type: none;
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 20px;
+    font-size: 2.0rem;
+    font-weight: 300;
     margin-top: 0;
     padding: 0;
 }
@@ -114,6 +119,7 @@ main#content ul#posts {
 main#content ul#posts li {
     margin: 5px 0;
     padding: 0;
+    font-size: 30px;
 }
 
 main#content ul#posts small {
@@ -127,7 +133,7 @@ main#content ul#posts li a {
 }
 
 main#content ul#posts li a:hover {
-    color: #369aff;
+    color: #ccc;
 }
 
 main#content ul#posts li a:hover small {
