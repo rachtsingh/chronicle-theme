@@ -24,12 +24,12 @@ header#banner {
  
 header#banner a {
     font-size: 16px;
-    color: #1c1c1c;
+    color: #3498db; 
     text-decoration: none;
 }
 
 header#banner a:hover {
-    color: #ccc;
+    color: #2980b9;
 }
 
 header#banner h2 {
@@ -60,13 +60,18 @@ header#banner nav ul li a {
     color: #1c1c1c;
 }
 
-main#content a {
+main#content ul#posts li a {
     color: #1c1c1c;
+}
+
+main#content a {
+    color: #3498db; 
     text-decoration: none;
 }
 
+
 main#content a:hover {
-    color: #ccc;
+    color: #2980b9;
     text-decoration: underline;
 }
 
